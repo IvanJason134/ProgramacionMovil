@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Practica B3</title>
+</head>
+<body>
+
+    <!--MENÚ 1-->
+    <nav class="navbar navbar-expand navbar-dark bg-light mx-auto">
+        <div class="navbar-nav mx-auto">
+            <ul class="navbar-nav mlauto pt-1" style="color: black;">
+                <li class="nav-item d-none d-lg-block" style="margin-right: 20px;">
+                    <img src="https://e00-marca.uecdn.es/assets/v21/img/cuidateplus.svg" alt="" style="width: 30px; "> 
+                    <a href="#" style="color: black;">CuidatePlus</a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 20px;">
+                    <img src="https://e00-marca.uecdn.es/assets/v21/img/trending.svg" alt="" style="width: 30px; "> 
+                    <a href="#" style="color: black;">Trending</a>
+                </li>
+                <li class="nav justify-content-center  d-none d-lg-block">
+                    <img src="https://logodownload.org/wp-content/uploads/2014/02/claro-logo-2-1.png" alt="" style="height: 30px;">
+                </li>
+                <li class="nav-item dropdown d-none d-lg-block" style="padding: 0px;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black; margin-left: 30px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png" alt="" style="width: 15px;">
+                        Español
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Inglés</a>
+                      <a class="dropdown-item" href="#">Portugués</a>
+                     
+                  </li>
+                <li class="nav justify-content-center">
+                    <a href="#" style="color: white; background-color: red; border-radius: 5px; padding: 6px 12px; margin-left: 5px; margin-right: 5px;">Suscríbete</a>
+                </li>
+                <li class="nav justify-content-center">
+                    <a href="#" style="color: red; background-color:white; border-radius: 5px; padding: 6px 12px; margin-left: 5px; margin-right: 5px; border: 1px solid red;">Iniciar sesión</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+        <!--MENÚ 2-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-red " style="background-color: red; position: sticky-top; top: 0;" >
+        <img class="navbar-brand"src="https://play-lh.googleusercontent.com/Q8MRrr5TKjMcfJp1VEjru83l17cPj8p6x8P9pw32m_P9wwrbnw5TqJQomxdg5ME06ZXF" alt="" style="width: 60px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: red;">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                  Fútbol
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                  Baloncesto
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                Motor
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                  Polideportivo
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" style="color: white;">Más + <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar en marca.com" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <span class="input-group-text" id="basic-addon2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </span>
+            </button>
+            
+          </form>
+        </div>
+      </nav>
+          <!--MENÚ 3-->
+
+      <nav class="navbar navbar-expand navbar-dark bg-light d-none d-lg-block mx-auto " style="padding-left: 60px;">
+        <div class="navbar-nav mx-auto">
+            <ul class="navbar-nav mlauto pt-1" style="color: black;">
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="http://www.lostejos.com"><img src="https://www.ligafutbol.net/wp-content/2009/04/escudo-barcelona.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item " style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/109/983/png-transparent-soccer-logo-football-icon-team-logo-thumbnail.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1536163931/lztgehqvktpxwrrsolt5.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://previews.123rf.com/images/kitipol/kitipol1510/kitipol151000012/46627439-insignia-de-f%C3%BAtbol-de-dise%C3%B1o-de-logotipo-plantilla-equipo-de-f%C3%BAtbol-vector-illuatration.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://www.paredro.com/wp-content/uploads/2015/10/HUACHIPATO.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="http://www.lostejos.com"><img src="https://www.ligafutbol.net/wp-content/2009/04/escudo-barcelona.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li><li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li> 
+                <!--ocultar-->
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/109/983/png-transparent-soccer-logo-football-icon-team-logo-thumbnail.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1536163931/lztgehqvktpxwrrsolt5.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://previews.123rf.com/images/kitipol/kitipol1510/kitipol151000012/46627439-insignia-de-f%C3%BAtbol-de-dise%C3%B1o-de-logotipo-plantilla-equipo-de-f%C3%BAtbol-vector-illuatration.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://www.paredro.com/wp-content/uploads/2015/10/HUACHIPATO.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="http://www.lostejos.com"><img src="https://www.ligafutbol.net/wp-content/2009/04/escudo-barcelona.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li><li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/109/983/png-transparent-soccer-logo-football-icon-team-logo-thumbnail.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1536163931/lztgehqvktpxwrrsolt5.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://previews.123rf.com/images/kitipol/kitipol1510/kitipol151000012/46627439-insignia-de-f%C3%BAtbol-de-dise%C3%B1o-de-logotipo-plantilla-equipo-de-f%C3%BAtbol-vector-illuatration.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://www.paredro.com/wp-content/uploads/2015/10/HUACHIPATO.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item " style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/109/983/png-transparent-soccer-logo-football-icon-team-logo-thumbnail.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1536163931/lztgehqvktpxwrrsolt5.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://previews.123rf.com/images/kitipol/kitipol1510/kitipol151000012/46627439-insignia-de-f%C3%BAtbol-de-dise%C3%B1o-de-logotipo-plantilla-equipo-de-f%C3%BAtbol-vector-illuatration.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://www.paredro.com/wp-content/uploads/2015/10/HUACHIPATO.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="http://www.lostejos.com"><img src="https://www.ligafutbol.net/wp-content/2009/04/escudo-barcelona.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li><li class="nav-item" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li> 
+                <!--ocultar-->
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/109/983/png-transparent-soccer-logo-football-icon-team-logo-thumbnail.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1536163931/lztgehqvktpxwrrsolt5.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://previews.123rf.com/images/kitipol/kitipol1510/kitipol151000012/46627439-insignia-de-f%C3%BAtbol-de-dise%C3%B1o-de-logotipo-plantilla-equipo-de-f%C3%BAtbol-vector-illuatration.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://www.paredro.com/wp-content/uploads/2015/10/HUACHIPATO.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="http://www.lostejos.com"><img src="https://www.ligafutbol.net/wp-content/2009/04/escudo-barcelona.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li><li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://w7.pngwing.com/pngs/109/983/png-transparent-soccer-logo-football-icon-team-logo-thumbnail.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1536163931/lztgehqvktpxwrrsolt5.png" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://previews.123rf.com/images/kitipol/kitipol1510/kitipol151000012/46627439-insignia-de-f%C3%BAtbol-de-dise%C3%B1o-de-logotipo-plantilla-equipo-de-f%C3%BAtbol-vector-illuatration.jpg" alt="Los Tejos" style="width: 20px; " /></a>
+                </li>
+                <li class="nav-item d-none d-lg-block" style="margin-right: 2px;">
+                    <a title="" href="#"><img src="https://palaciodejuegos.com/wp-content/uploads/2018/11/marcaapuestas-casino-logo.png" alt="Los Tejos" style="width: 100px; " /></a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="spacer" style="height: 15px;"></div>
+
+    <div style="align-content: center; text-align: center;"> 
+        <img src="https://www.casasdeapuestas-mexico.com/wp-content/uploads/sites/11/2020/01/caliente-registro-400-pesos-banner.png" alt="" style="text-align: center; width: 65%;" > 
+    </div>
+    
+    <div class="spacer" style="height: 15px;"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-3" style="text-align: right;  align-items: center; display: flex;">
+            Agenda
+        </div>
+          <div class=".col-2" style="font-size: 8px; color: white; background-color: red; text-align: center; align-items: center; display: flex; padding: 2px;" >
+            En directo
+        </div>
+          <div class="col-2" style="font-size: 8px; background-color: whitesmoke;">
+            Todas las noticias <br> Última hora
+          </div>
+          <div class=".col-2" style="font-size: 8px; color: white; background-color: red; text-align: center; align-items: center; display: flex; padding: 2px; margin-left: 3px;" >
+            Lo mejor del sitio
+        </div>
+          <div class="col-2" style="font-size: 8px; background-color: whitesmoke;">
+            Agenda <br> Jueves 28
+          </div>
+          
+          <div class="dropdown" style="text-align: center; align-items: center; align-content: center; display: flex; margin-left: 80px; padding: 10px;">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 5px; background-color: white; color: black; padding: 2px; margin-left: 4px; text-align: center;">
+              Ver más directos
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Evento 1</a>
+              <a class="dropdown-item" href="#">Evento 2</a>
+              <a class="dropdown-item" href="#">Evento 3</a>
+            </div>
+          </div>
+
+          
+        </div>
+
+        
+      </div>
+    
+      
+      
+    <div class="spacer" style="height: 15px;"></div>
+
+    <div class="container" style="display: flex; align-content: center;">
+        <div class="row">
+          <div class="col-8" style="display: flex; align-content: center; align-items: center;">
+            <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/10/04/16333221467458_310x174.jpg" alt="" style="width:100%; height: fit-content;">
+          </div>
+          <div class="col-4" style="display: flex; align-content: center; align-items: center;">
+            <ul class="list-unstyled" >
+                <li>
+                <div>
+                    <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/10/04/16333137153232_310x174.jpg" alt="" style="width: 50%;">
+                    <a href="#" style="width: 50%; font-size: 6px; color: black;">Amenaza </a>
+                </div>                
+            
+                <li>
+                    <div>
+                        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/10/04/16333137153232_310x174.jpg" alt="" style="width: 50%;">
+                        <a href="#" style="width: 50%; font-size: 6px; color: black;">Amenaza</a>
+                    </div>                
+                    </li>
+                    <li >
+                        <div>
+                            <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/10/04/16333137153232_310x174.jpg" alt="" style="width: 50%;">
+                            <a href="#" style="width: 50%; font-size: 6px; color: black;">Amenaza</a>
+                        </div>                
+                        </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="spacer" style="height: 15px;"></div>
+      
+    
+    
+
+
+    
+  <div class="container"> 
+    <div class="row pt-3"> 
+      <div class="col-md-4 col-sm-6"> 
+        <div class="card border-0" style="width: 22rem; height: 20rem;"> 
+          <img class="card-img-top" src="Card1_row1.PNG" alt="Card image cap"> 
+          <div class="card-body border-bottom"> 
+            <h5 class="card-title font-weight-bold">Felix Orade, el jugador nigeriano que explica el festejo de Dele Alli</h5> 
+            <br> 
+          </div> 
+        </div> 
+      </div> 
+       
+      <div class="col-md-4 col-sm-6"> 
+      <div class="card border-0" style="width: 22rem; height: 20rem;"> 
+      <img class="card-img-top" src="Card2_row1.PNG" alt="Card image cap"> 
+      <div class="card-body border-bottom"> 
+        <h5 class="card-title font-weight-bold">Cristiano habla sobre Cuadrado y la cesión del número 7</h5> 
+        <p class="card-text"><small class="text-muted">REDACCIÓN MARCA CLARO</small></p> 
+      </div> 
+    </div> 
+    </div> 
+     
+    <div class="col-md-4 col-sm-6"> 
+      <div class="card border-0" style="width: 22rem; height: 20rem;"> 
+      <img class="card-img-top" src="Card3_row1.PNG" alt="Card image cap"> 
+      <div class="card-body border-bottom"> 
+        <h5 class="card-title font-weight-bold">La joya celeste que hace soñar a Cruz Azul</h5> 
+        <p class="card-text mb-auto"><small class="text-muted">JAVIER CARDOSO</small></p> 
+      </div> 
+    </div> 
+    </div> 
+  </div> 
+ 
+  <div class="row py-3"> 
+      <div class="col-md-12"> 
+          <nav class="nav border-bottom border-top"> 
+              <a class="nav-link disabled font-weight-bold" href="#">Es noticia: </a> 
+              <a class="nav-link text-dark" href="#">Mercado de fichajes</a> 
+              <a class="nav-link text-dark" href="#">Rodrigo</a> 
+              <a class="nav-link text-dark" href="#">Fernando Alonso</a> 
+              <a class="nav-link text-dark" href="#">Lewandowski</a> 
+              <a class="nav-link text-dark" href="#">Usain Bolt</a> 
+              <a class="nav-link text-dark" href="#">Donald Trump</a> 
+              <a class="nav-link text-dark" href="#">Calendario Liga</a> 
+            </nav> 
+      </div> 
+  </div> 
+ 
+  <div class="row py-3"> 
+    <div class="col-md-4"> 
+      <div class="card border-0" style="width: 22rem;"> 
+        <div class="row border-bottom"> 
+          <div class="col-6"> 
+            <img class="card-img-top" src="Card1_row2.PNG" alt="Card image cap"> 
+          </div> 
+          <div class="col-6 pl-1"> 
+            <p class="card-text mb-0"><small class="text-primary font-weight-bold">LALIGA SANTANDER</small></p> 
+            <p class="card-title font-weight-bold">¿Qué equipos y qué jugadores estuvieron en la reunión de la AFE?</h5> 
+              <img class="card-img ml-auto" src="iconMess1.PNG" alt="messico" style="width: 30px; height: 15px;"> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+ 
+    <div class="col-md-4"></div> 
+ 
+    <div class="col-md-4"> 
+      <div class="card border-0" style="width: 22rem;"> 
+         <div class="row border-bottom"> 
+        <div class="col-6 "> 
+            <img class="card-img-top" src="Card2_row2.PNG" alt="Card image cap"> 
+            <p class="card-text mb-auto"><small class="text-muted">ROCIO GUEVARA SEVILLA</small></p> 
+        </div> 
+        <div class="col-6 pl-1"> 
+            <p class="card-text mb-0"><small class="text-primary font-weight-bold">SEVILLA FC</small></p> 
+            <p class="card-title font-weight-bold">Draxler y Martial, nombres 'top' en la recta final del mercado</h5> 
+            <img class="card-img ml-auto" src="iconMess2.PNG" alt="messico" style="width: 35px; height: 20px;"> 
+                 
+        </div> 
+      </div> 
+    </div> 
+</div> 
+</div> 
+ 
+  <div class="row pt-2"> 
+    <div class="col-md-4 col-sm-6"> 
+      <div class="card border-0" style="width: 22rem;"> 
+        <img class="card-img-top" src="Card1_row3.PNG" alt="Card image cap"> 
+        <div class="card-body "> 
+          <h5 class="card-title font-weight-bold">Lunin, muy cerca de irse cedido al Leganés</h5> 
+          <br> 
+        </div> 
+      </div> 
+    </div> 
+ 
+    <div class="col-md-4 col-sm-6"> 
+      <div class="card border-0" style="width: 22rem;"> 
+        <img class="card-img-top" src="Card2_row3.PNG" alt="Card image cap"> 
+        <div class="card-body"> 
+          <h5 class="card-title font-weight-bold ">Algo pasa con Rodrigo</h5> 
+          <br> 
+        </div> 
+      </div> 
+    </div> 
+     
+    <div class="col-md-4 col-sm-12"> </div> 
+  </div> 
+</div> 
+    
+    
+    <!--footer-->
+
+
+
+      <footer class="page-footer font-small blue pt-4 mx-auto" style="background-color: #363333; align-content: center; padding: 60px;">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <div class="footer-copyright text-center py-3"  style="color: white; text-decoration: none;">Otras webs de unidad editorial
+            </div>
+          <!-- Grid row -->
+          <div class="row">
+              
+    
+            
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <!-- Links -->
+                <h5 class="text-uppercase" style="color: white;">Marca</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">App marca</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Apuestas</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Clasifiación</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Calendario</a>
+                  </li>
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase"  style="color: white; text-decoration: none;">Ocio y Moda</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Tramillas</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Moda</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Traductor</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: white; text-decoration: none;">Programación TV</a>
+                  </li>
+                </ul>
+        
+              </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="text-uppercase" style="color: white; text-decoration: none;">Unidad editorial</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">El mundo</a>
+                </li>
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Expansión</a>
+                </li>
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Cuidate Plus</a>
+                </li>
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Suscripción el mundo</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="text-uppercase"  style="color: white; text-decoration: none;">Formación y empleo</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Escuela unidad editorial</a>
+                </li>
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Expansión y empleo</a>
+                </li>
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Suscripción marca</a>
+                </li>
+                <li>
+                  <a href="#!" style="color: white; text-decoration: none;">Mi bebé y yo</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+      
+      </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
